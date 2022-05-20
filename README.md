@@ -4,6 +4,7 @@
 - no suffix: vanilla (baseline)
 - `buffer`: only buffering with `buffer_at`
 - `acc`: with interleaving accumulation, i.e., `reorder` and `buffer_at`
+- `hls` is a template hls project folder
 
 ### To emit VHLS kernel code
 ```
