@@ -29,6 +29,7 @@ module {
     } {loop_name = "oc", stage_name = "s" }
     hcl.reorder(%s, %lrc, %lry, %lrx, %lj)
     %buf = hcl.buffer_at(%s, %Output: memref<6x30x30xf32>, %li) -> memref<30xf32>
+    hcl.pipeline(%s, %lj, 1)
     return
   }
 }
