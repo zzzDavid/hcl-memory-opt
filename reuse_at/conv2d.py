@@ -15,7 +15,7 @@ if len(sys.argv) == 1:
     target = None
 else:
     target = hcl.Platform.xilinx_zc706
-    target.config(compiler="vivado_hls", mode="debug", project="conv2d-nchw.prj")
+    target.config(compiler="vivado_hls", mode="debug", project="conv2d-lb-wb.prj")
 
 
 def test_conv2D_nchw():
