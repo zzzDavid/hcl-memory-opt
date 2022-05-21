@@ -29,6 +29,7 @@ void kernel(
         l_ry: for (int ry = 0; ry < 3; ry++) {	// L11
           l_rx: for (int rx = 0; rx < 3; rx++) {	// L12
             l_j: for (int j = 0; j < 30; j++) {	// L13
+            #pragma HLS pipeline II=1
               float v11 = v0[rc][(i + ry)][(j + rx)];	// L14
               float v12 = v1[oc][rc][ry][rx];	// L15
               float v13 = v5[j];	// L16

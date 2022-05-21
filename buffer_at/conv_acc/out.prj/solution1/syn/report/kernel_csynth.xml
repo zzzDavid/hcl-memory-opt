@@ -21,46 +21,32 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>1634581</Best-caseLatency>
-<Average-caseLatency>1634581</Average-caseLatency>
-<Worst-caseLatency>1634581</Worst-caseLatency>
-<Best-caseRealTimeLatency>6.538 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>6.538 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>6.538 ms</Worst-caseRealTimeLatency>
-<Interval-min>1634582</Interval-min>
-<Interval-max>1634582</Interval-max>
+<Best-caseLatency>159661</Best-caseLatency>
+<Average-caseLatency>159661</Average-caseLatency>
+<Worst-caseLatency>159661</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.639 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.639 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.639 ms</Worst-caseRealTimeLatency>
+<Interval-min>159662</Interval-min>
+<Interval-max>159662</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <l_s_oc_l_i>
 <TripCount>180</TripCount>
-<Latency>1634580</Latency>
-<IterationLatency>9081</IterationLatency>
+<Latency>159660</Latency>
+<IterationLatency>887</IterationLatency>
 <l_j_init>
 <TripCount>30</TripCount>
 <Latency>30</Latency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>1</PipelineDepth>
 </l_j_init>
-<l_rc>
-<TripCount>3</TripCount>
-<Latency>9015</Latency>
-<IterationLatency>3005</IterationLatency>
-<l_ry>
-<TripCount>3</TripCount>
-<Latency>3003</Latency>
-<IterationLatency>1001</IterationLatency>
-<l_rx>
-<TripCount>3</TripCount>
-<Latency>999</Latency>
-<IterationLatency>333</IterationLatency>
-<l_j>
-<TripCount>30</TripCount>
-<Latency>330</Latency>
-<IterationLatency>11</IterationLatency>
-</l_j>
-</l_rx>
-</l_ry>
-</l_rc>
+<l_rc_l_rx_l_j>
+<TripCount>810</TripCount>
+<Latency>820</Latency>
+<PipelineII>1</PipelineII>
+<PipelineDepth>12</PipelineDepth>
+</l_rc_l_rx_l_j>
 <l_j_back>
 <TripCount>30</TripCount>
 <Latency>30</Latency>
@@ -73,10 +59,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>0</BRAM_18K>
+<BRAM_18K>2</BRAM_18K>
 <DSP48E>5</DSP48E>
-<FF>747</FF>
-<LUT>919</LUT>
+<FF>858</FF>
+<LUT>1586</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
