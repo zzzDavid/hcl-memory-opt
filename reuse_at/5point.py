@@ -2,7 +2,7 @@ import heterocl as hcl
 import numpy as np
 import sys
 
-width, height = 10, 10
+width, height = 32, 32
 
 dtype = hcl.Int()
 # dtype = hcl.Float()
